@@ -9,3 +9,4 @@
   to = "/.netlify/functions/proxy"
   status = 200
   force = true
+  headers = { "proxy_buffering" = "off" }
